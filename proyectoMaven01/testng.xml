@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="email" value="test@qa.com"></parameter>
+  <parameter name="password" value="Pruebas01"></parameter> 
+  
+   <classes>
+       <class name="EjemploConTestNG.EjemploTestNGConBasePage"/>
+      
+    </classes>
+    <!--
+    <groups>
+  		<run>
+  			<include name="RegressionTest"></include>
+  			<include name="SmokeTest"></include>
+  		</run>
+  </groups>
+  
+  <classes>
+  	   <class name="EjemploConTestNG.EjemploTestNG1"/>
+       <class name="EjemploConTestNG.EjemploTestNG2"/>
+    </classes>
+  
+    <classes>
+       <class name="EjemploConTestNG.EjmeploAnotacionesTestNG2"/>
+    </classes>
+    
+     <classes>
+       <class name="EjemploConTestNG.EjemploTestNG2"/>
+       <class name="EjemploConTestNG.EjemploTestNG1"/>
+       <class name="EjemploConTestNG.EjemploTestNG2"/>
+       <class name="EjemploConTestNG.EjmeploAnotacionesTestNG2"/>
+       <class name="EjemploConTestNG.EjmeploAnotacionesTestNG3"/>
+      
+    </classes>
+    
+    -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
